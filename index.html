@@ -773,8 +773,14 @@
               </div>
               <h3>TrendwatchAI Redesign</h3>
               <p>
-                Redesign & migration to Next.js 14 of <a href="https://trendwatch.framer.ai" target="_blank" style="color: var(--accent-primary);">trendwatch.framer.ai</a>. 
-                Modern landing with dark/light theme, animations, and responsive design.
+                Redesign & migration to Next.js 14 of
+                <a
+                  href="https://trendwatch.framer.ai"
+                  target="_blank"
+                  style="color: var(--accent-primary)"
+                  >trendwatch.framer.ai</a
+                >. Modern landing with dark/light theme, animations, and
+                responsive design.
               </p>
               <a
                 href="https://js-easy-school.github.io/TrendwatchAI-Landing-Page---Next.js-14/"
@@ -919,12 +925,17 @@
             </div>
           </div>
           <div class="contact-form">
-            <form id="contactForm">
+            <form
+              id="contactForm"
+              action="https://formspree.io/f/xgoooqbb"
+              method="POST"
+            >
               <div class="form-group">
                 <label for="name">Full Name</label>
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   class="form-control"
                   placeholder="Enter your name"
                   required
@@ -935,6 +946,7 @@
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   class="form-control"
                   placeholder="Enter your email"
                   required
@@ -944,6 +956,7 @@
                 <label for="message">Your Message</label>
                 <textarea
                   id="message"
+                  name="message"
                   class="form-control"
                   placeholder="Tell me about your project..."
                   required
