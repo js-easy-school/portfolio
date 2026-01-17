@@ -1010,18 +1010,7 @@
         navLinks.classList.toggle("active");
       });
 
-      // Form submission
-      const contactForm = document.getElementById("contactForm");
-
-      contactForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const name = document.getElementById("name").value;
-        const email = document.getElementById("email").value;
-        alert(
-          `Thank you ${name}! Your message has been received. I'll get back to you at ${email} soon.`
-        );
-        contactForm.reset();
-      });
+      // Form submission handled by Formspree (no JavaScript needed)
 
       // Fade-in animation on scroll
       const fadeElements = document.querySelectorAll(".fade-in");
